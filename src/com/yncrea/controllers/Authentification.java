@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class Authentification {
-    @RequestMapping(value = {"","/login","/index"})
+    @RequestMapping(value = {"/","/login","/index"})
     public String loginForm(){
         return "login";
     }
