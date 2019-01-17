@@ -11,8 +11,8 @@ import org.springframework.web.servlet.ModelAndView;
  * Date: 20/12/2018 17:23
  */
 @Controller
-public class Login {
-    @RequestMapping(value = "/login")
+public class Authentification {
+    @RequestMapping(value = {"","/login","/index"})
     public String loginForm(){
         return "login";
     }
