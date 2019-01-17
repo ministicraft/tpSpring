@@ -2,7 +2,7 @@ package com.yncrea.dao;
 
 /**
  * User: ministicraft
- * Date: 20/12/2018 17:22
+ * Date: 17/01/2019 15:26
  */
-public class UtilisateurDao {
+public class ClientDAO {
 }
